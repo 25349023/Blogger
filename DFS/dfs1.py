@@ -23,5 +23,6 @@ def dfs(start):
     for i in range(3):
         dfs(start.next[i])
 
+
 tree = build_tree()
 dfs(tree)
