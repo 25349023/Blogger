@@ -11,6 +11,7 @@ void dfs(int layer){
         for (int j = 0; j < 4; j++){
             cout << candy[arrangement[j]] << "  ";
         } cout << endl;
+        return;
     }
 
     for (int i = 0; i < 3; i++){
