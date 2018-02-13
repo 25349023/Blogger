@@ -13,7 +13,7 @@ def dfs(layer):
             continue
         visited[i] = True
         arrangement[layer] = people[i]
-        dfs(layer+1)
+        dfs(layer + 1)
         visited[i] = False
 
 
