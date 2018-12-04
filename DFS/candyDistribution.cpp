@@ -7,7 +7,7 @@ int arrangement[4];
 string candy[3] = {"紅", "藍", "黃"};
 
 void dfs(int layer){
-    if (layer == 3){
+    if (layer == 4){
         for (int j = 0; j < 4; j++){
             cout << candy[arrangement[j]] << "  ";
         } cout << endl;
